@@ -4,7 +4,7 @@ function App() {
       <nav className="bg-yellow-500">Main Navigation</nav>
 
       <main>
-        <div className="bg-slate-200 text-3xl text-blue-500">
+        <div className="bg-slate-200 text-3xl text-blue-500 py-4 my-8 border-b-4 border-blue-600">
           <h1>Left Side</h1>
         </div>
         <div className="bg-stone-300">
