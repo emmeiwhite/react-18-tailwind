@@ -15,6 +15,21 @@ function App() {
             perspiciatis dolore distinctio magnam, nemo consequuntur. Quidem, facere.
           </p>
         </div>
+
+        <div className="flex space-x-7 mb-10">
+          <p className="inline">TOTAL:</p>
+          <p className="inline">$25</p>
+        </div>
+
+        <div className="flex flex-col gap-4 sm:gap-8 sm:flex-row justify-center text-sm sm:text-lg">
+          <div>Item</div>
+          <div>Item</div>
+          <div>Item</div>
+          <div>Item</div>
+          <div>Item</div>
+          <div>Item</div>
+          <div>Item</div>
+        </div>
       </main>
     </section>
   )
