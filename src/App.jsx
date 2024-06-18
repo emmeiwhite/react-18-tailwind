@@ -1,7 +1,9 @@
 function App() {
   return (
     <section className="text-center text-emerald-700">
-      <nav className="bg-yellow-500">Main Navigation</nav>
+      <nav className="bg-yellow-500 py-2 md:p-4 text-sm sm:text-base md:text-[30px] ">
+        Main Navigation
+      </nav>
 
       <main>
         <div className="bg-slate-200 text-3xl text-blue-500 py-4 my-8 border-b-4 border-blue-600">
@@ -21,7 +23,7 @@ function App() {
           <p className="inline">$25</p>
         </div>
 
-        <div className="flex flex-col gap-4 sm:gap-8 sm:flex-row justify-center text-sm sm:text-lg">
+        <div className="flex flex-col gap-4 sm:gap-8 sm:flex-row justify-center text-sm sm:text-lg sm:font-bold">
           <div>Item</div>
           <div>Item</div>
           <div>Item</div>
